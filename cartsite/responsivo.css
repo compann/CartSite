@@ -1,6 +1,67 @@
-@media(max-width: 500px){
-    .cartLogo img {
-        
+@media screen and (min-width: 601px) and (max-width: 900px) {
+    
+    .box1,
+    .box2,
+    .box3,
+    .box4 {
+        width: 45%; /* Defina a largura para dispositivos nessa faixa */
+        /* Outros estilos para dispositivos nessa faixa */
     }
-
 }
+
+/* Estilos responsivos para dispositivos com largura maior que 900 pixels */
+@media screen and (min-width: 901px) {
+    
+    .box1,
+    .box2,
+    .box3,
+    .box4 {
+        width: 40%; /* Aumente a largura para dispositivos maiores que 900px */
+        /* Outros estilos para dispositivos maiores que 900px */
+    }
+}
+
+  
+    .cartlogo img {
+      max-width: 5%;
+    }
+  
+    .whatsapp h1 {
+      font-size: 20px;
+      margin-top: 20px;
+      margin-bottom: 20px;
+    }
+  
+    .pdf h1 {
+      font-size: 30px;
+    }
+  
+  
+
+    .cartlogo img {
+      max-width: 30%;
+    }
+  
+    .whatsapp h1 {
+      font-size: 24px;
+      margin-top: 30px;
+      margin-bottom: 30px;
+    }
+  
+    .pdf h1 {
+      font-size: 35px;
+    }
+  
+  
+
+   
+    @media (max-width: 767px) {
+        .conteudo img {
+          margin: 0; /* Remova quaisquer margens que possam estar interferindo no posicionamento */
+          padding: 0; /* Remova quaisquer paddings que possam estar interferindo no posicionamento */
+          display: block; /* Garanta que a imagem esteja configurada como bloco */
+          width: 100%; /* Defina a largura da imagem como 100% do contêiner */
+          max-width: 100%; /* A imagem terá no máximo a largura do contêiner */
+          height: auto; /* A altura será ajustada proporcionalmente à largura */
+        }
+      }
